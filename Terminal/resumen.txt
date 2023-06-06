@@ -1,0 +1,5 @@
+Git init: sirve para inicializar el repositorio 
+Git Add: añade cambios de archivos 
+Git Commit -m "mensaje": sirve para commitear los cambios hechos
+Git Status: muestra el estado de los archivos
+Git push origin master (o la rama en la que estemos): para subir todo lo que hemos hecho en el repositorio local al repositorio remoto
