@@ -1,0 +1,41 @@
+ git init
+  337  git branch -m main
+  338  git remote add origin https://github.com/nadia1689/05062023-NadiaSoria.git
+  339  touch comandos.txt main.js index.html
+  340  git add .
+  341  git commit -m "Commit 01 de Nadia Soria"
+  342  git push origin main
+  343  git checkout main feature01
+  344  git branch feature01
+  345  git checkout
+  346  git checkout main
+  347  git branch
+  348  git branch -m feature01
+  349  git checkout feature01
+  350  mkdir Terminal Hardware
+  351  cd Terminal/
+  352  touch resumen.txt
+  353  .. cd
+  354  cd ..
+  355  cd Hardware/
+  356  touch resumen.txt
+  357  git add .
+  358  git commit -m "Commit 02 de Nadia Soria"
+  359  git push origin feature01
+  360  cd ..
+  361  cd Terminal/
+  362  git add .
+  363  git commit -m "Commit 02 de nuevo por que comitie desde la carpeta Hardware, en vez de comitear todo"
+  364  git push origin feature01
+  365  git branch -m feature02
+  366  cd ..
+  367  cd Terminal/
+  368  cd resumen.txt 
+  369  cd ..
+  370  git add .
+  371  git status
+  372  git commit -m "Commit 03 de Nadia Soria"
+  373  git push origin feature02
+  374  gir checkout main
+  375  git checkout main
+  376  mv comandos.txt comandosUtilizados.txt
